@@ -8,7 +8,7 @@ export default function HomeScreen({navigation}) {
             <View style={{alignItems: 'flex-end', height: 30}}>
                 <Text>FirstMobileApp</Text>
             </View>
-            <View style={{alignItems: 'stretch', flexDirection: 'row', width: '100%'}}>
+            <View style={{alignItems: 'stretch', flexDirection: 'row', width: 400}}>
                 <Button
                     title="Home"
                     style={{width: '100%'}}
@@ -24,10 +24,65 @@ export default function HomeScreen({navigation}) {
                 <View><Text>Новини</Text></View>
                 <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
                     <Image
-                        source={{uri: 'https://reactjs.org/logo-og.png'}}
+                        source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
                         style={{height: 100, width: 100}}
                     />
-                    <View style={{alignItems: 'stretch', flexDirection: 'column'}}>
+                    <View style={{alignItems: 'stretch', flexDirection: 'column', margin: 12}}>
+                        <Text>Заголовок новини</Text>
+                        <Text>дата новини</Text>
+                        <Text>короткий текст новини</Text>
+                    </View>
+                </View>
+                <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
+                    <Image
+                        source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
+                        style={{height: 100, width: 100}}
+                    />
+                    <View style={{alignItems: 'stretch', flexDirection: 'column', margin: 12}}>
+                        <Text>Заголовок новини</Text>
+                        <Text>дата новини</Text>
+                        <Text>короткий текст новини</Text>
+                    </View>
+                </View>
+                <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
+                    <Image
+                        source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
+                        style={{height: 100, width: 100}}
+                    />
+                    <View style={{alignItems: 'stretch', flexDirection: 'column', margin: 12}}>
+                        <Text>Заголовок новини</Text>
+                        <Text>дата новини</Text>
+                        <Text>короткий текст новини</Text>
+                    </View>
+                </View>
+                <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
+                    <Image
+                        source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
+                        style={{height: 100, width: 100}}
+                    />
+                    <View style={{alignItems: 'stretch', flexDirection: 'column', margin: 12}}>
+                        <Text>Заголовок новини</Text>
+                        <Text>дата новини</Text>
+                        <Text>короткий текст новини</Text>
+                    </View>
+                </View>
+                <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
+                    <Image
+                        source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
+                        style={{height: 100, width: 100}}
+                    />
+                    <View style={{alignItems: 'stretch', flexDirection: 'column', margin: 12}}>
+                        <Text>Заголовок новини</Text>
+                        <Text>дата новини</Text>
+                        <Text>короткий текст новини</Text>
+                    </View>
+                </View>
+                <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
+                    <Image
+                        source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
+                        style={{height: 100, width: 100}}
+                    />
+                    <View style={{alignItems: 'stretch', flexDirection: 'column', margin: 12}}>
                         <Text>Заголовок новини</Text>
                         <Text>дата новини</Text>
                         <Text>короткий текст новини</Text>

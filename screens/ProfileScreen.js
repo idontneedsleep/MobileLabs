@@ -51,6 +51,10 @@ export default function ProfileScreen({navigation}) {
                                style={{height: 40, margin: 12, borderWidth: 1, padding: 10, width: 370}}
                     />
                 </View>
+                <View>
+                    <Button
+                        title="Зареєструватися" />
+                </View>
             </View>
             <View>
                 <Text>Федоренко Евеліна, ІПЗ-19-2</Text>

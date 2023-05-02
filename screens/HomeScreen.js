@@ -8,20 +8,24 @@ export default function HomeScreen({navigation}) {
             <View style={{alignItems: 'flex-end', height: 30}}>
                 <Text>FirstMobileApp</Text>
             </View>
-            <View style={{alignItems: 'stretch', flexDirection: 'row', width: 400}}>
+            <View style={{flexDirection: 'row', width: 400}}>
                 <Button
                     title="Home"
-                    style={{width: '100%'}}
+                    style={{width: 100}}
                     onPress={() => navigation.navigate('Home')}/>
                 <Button
                 title="Gallery"
+                style={{width: 100}}
                 onPress={() => navigation.navigate('Gallery')}/>
                 <Button
                     title="Profile"
+                    style={{width: 100}}
                     onPress={() => navigation.navigate('Profile')}/>
             </View>
             <View style={{flex: 1, height: 100, width: 400}}>
-                <View><Text>Новини</Text></View>
+                <View>
+                    <Text style={{fontSize: 20, textAlign: 'center'}}>Новини</Text>
+                </View>
                 <View style={{alignItems: 'center', flexDirection: 'row', width: 400, borderWidth: 1}}>
                     <Image
                         source={{uri: 'https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image-400x300.png'}}
